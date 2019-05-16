@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+*:focus {
+	outline: none;
+}
+.selector-for-some-widget {
+	box-sizing: content-box;
+}
+body {
+	display: flex;
+	justify-content: center;
+	background: #abcafc;
+	margin: 8%;
+	font-family: 'Poppins', sans-serif;
+}
+.conrainer {
+	background: #fff;
+	border-radius: 8px;
+	width: 40%;
+}
+h4 {
+	font-weight: 400;
+	padding-top: 8%;
+	margin-bottom: 8%;
+	color: rgba(82, 82, 82, 1);
+}
+label {
+	color: rgba(82, 82, 82, 1);
+}
+.inputstyle {
+	border: none;
+	background:  rgb(250,250,250);
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+input[type="text"] {
+	padding: 12px;
+	margin-bottom: 10%;
+	color: 
+}
+input[type="date"] {
+	padding: 12px;
+	margin-bottom: 10%;
+}
+input[type="radio"] {
+	padding: 12px;
+	margin-bottom: 10%;
+}
+input[type="Email"] {
+	padding: 12px;
+	margin-bottom: 10%;
+}
+input[type="Phone"] {
+	padding: 12px;
+	margin-bottom: 10%;
+}
+button {
+	margin-bottom: 8%;
+}
+.mt-2 {
+	margin-top: .5 !important;
+}
