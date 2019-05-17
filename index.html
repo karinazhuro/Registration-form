@@ -5,69 +5,64 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Registration form</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="Registration.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
 </head>
 <body>
 	<div class="conrainer">
 		<div class="selector-for-some-widget">
 			<div class="row">
-				<div class="col-md offset-md-1"><h4>Registration Form</h4></div>
+				<div class="col mt-5 ml-5"><h4>Registration Form</h4></div>
 			</div>
 	<!--Form-->
 	<!--Name-->
 			<form method="post" name="Registration form">
 				<div class="form-group">
 					<div class="row">
-						<div class="col-sm-4 col-md-5 offset-md-1">
+						<div class="col-sm ml-5 mr-5 mt-4">
 							<label>First Name</label>
-								<input class="form-control" type="text" name="First Name">
+							<input class="form-control" type="text" name="First Name">
 						</div>
-						<div class="col-sm-5 col-md-5">
+						<div class="col-sm ml-5 mr-5 mt-4">
 							<label >Last Name</label>
-								<input class="form-control" type="text" name="Last Name">
+							<input class="form-control" type="text" name="Last Name">
 						</div>
 					</div>
 		<!--Birthday, Gender-->
 					<div class="row">
-						<div class="col-sm-4 col-md-5 offset-md-1">
+						<div class="col-sm ml-5 mr-5 mt-4">
 							<label>Birthday</label>
-								<input class="form-control" type="date" name="Birthday" placeholder=" ">
+							<input class="form-control" type="date" name="Birthday" placeholder="dd.mm.yy" text-size="10">
 						</div>
-						<div class="col-sm-5 col-md-5">
+						<div class="col-sm ml-5 mr-5 mt-4">
 							<label>Gender</label>
-								<div class="w-100">
-									<div class="row">
-										<div class="col-md-5 mt-2">
+							<div class="col mt-2 pl-0">
 								<div class="form-check form-check-inline align-items-center">
 									<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1">
 									<label class="form-check-label" for="exampleRadios1">Male</label>
 								</div>
-									</div>
-									<div class="col-md-5 mt-2">
 								<div class="form-check form-check-inline">
 									<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2">
 									<label class="form-check-label" for="exampleRadios2">Female</label>
-								</div>
-								</div>
 								</div>
 							</div>
 						</div>
 					</div>
 		<!--Email, Phone-->
 					<div class="row"> 
-						<div class="col-sm-4 col-md-5 offset-md-1">
+						<div class="col-sm ml-5 mr-5 mt-4">
 							<label for="exampleInputEmail1">Email</label>
 								<input class="form-control" type="Email" name="Email" id="exampleInputEmail1">
 						</div>
-						<div class="col-sm-5 col-md-5">
+						<div class="col-sm ml-5 mr-5 mt-4">
 							<label class="labelstyle">Phone Number</label>
 								<input class="form-control" type="Phone" name="Phone Number">
 						</div>
 					</div>
 		<!--button-->
 					<div class="row">
-						<div class="col offset-md-1">
+						<div class="col-sm ml-5 mr-5 mt-4 mb-5">
 							<button class="btn btn-primary" type="submit">Submit</button> 
 						</div>
 					</div>
